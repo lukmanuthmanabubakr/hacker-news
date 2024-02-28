@@ -59,7 +59,7 @@ const AppProvider = ({ children }) => {
     </AppContext.Provider>
   )
 }
-// make sure use
+// make sure you use
 export const useGlobalContext = () => {
   return useContext(AppContext)
 }
